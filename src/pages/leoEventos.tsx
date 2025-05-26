@@ -38,10 +38,9 @@ const LeoEventos = () => {
   return (
     <div className="min-h-screen flex flex-col items-center bg-gradient-to-b from-pink-100 via-purple-100 to-blue-100 py-10 px-4">
       <div className="flex flex-col items-center mb-6 text-center">
-        {/* LOGO REDONDO */}
         <div className="w-20 h-20 rounded-full overflow-hidden flex items-center justify-center shadow-lg mb-4">
           <img
-            src="/public/leo.png" // ← EDITA AQUÍ la ruta de tu logo
+            src="/public/leo.png"
             alt="Logo Leo Eventos"
             className="object-cover w-full h-full"
           />
@@ -52,8 +51,6 @@ const LeoEventos = () => {
           🎉 Organización de eventos y servicio de catering | 📍 Rocafuerte -
           Manabí
         </p>
-
-        {/* Íconos sociales */}
         <div className="flex flex-wrap justify-center space-x-4 mt-4">
           <a
             href="https://www.tiktok.com/@leos_event?_t=ZM-8wexAS6OddA&_r=1"
@@ -86,7 +83,6 @@ const LeoEventos = () => {
         </div>
       </div>
 
-      {/* Lista de enlaces */}
       <div className="w-full max-w-md space-y-4">
         {links.map((link, index) => (
           <Card key={index}>
